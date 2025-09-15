@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javed Bharwani | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <meta property="og:title" content="Javed's Portfolio" />
+    <meta property="og:description" content="Check out my projects and work." />
+    <meta
+      property="og:image"
+      content="https://turytl.github.io/assets/ogimage.png"
+    />
+  </head>
+  <body>
+    <div id="background"></div>
+
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <section class="hero">
+      <h1>Javed Bharwani</h1>
+      <p>Python developer for automation, Excel scripting, web apps.</p>
+      <button class="cta" onclick="location.href='#about'">
+        Find Out More
+      </button>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I’m Javed, a Python developer specializing in automation, data processing, and web app development. I build Excel automation tools (Pandas, OpenPyXL), custom web scrapers (Selenium, BeautifulSoup), and interactive Python web apps (Flask, Django, Streamlit). I help businesses save time by automating repetitive tasks and creating clean, user-friendly tools.
+        </p>
+      </div>
+      <div
+        class="about-image"
+        style="
+          background-image: url('assets/pfp.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      ></div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+        <span>Python</span>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 92%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 88%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 65%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>UI/UX Design</span>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 78%"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 style="text-align: center; margin-bottom: 2rem">
+        Projects
+      </h2>
+      <div class="project-grid">
+        <a
+          href="https://github.com/Turytl/weather-app"
+          target="_blank"
+          class="project-card-link"
+        >
+          <div class="project-card">
+            <img src="assets/projects/weather-fetch.png" alt="" />
+            <h2>Weather App</h2>
+            <h3>A simple weather application based in python.</h3>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/Turytl/pomodoro-timer"
+          target="_blank"
+          class="project-card-link"
+        >
+          <div class="project-card">
+            <img src="assets/projects/pomodoro-timer.png" alt="" />
+            <h2>Pomodoro Timer</h2>
+            <h3>A pomodoro based Timer built with Python.</h3>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/Turytl/clipboard-saver"
+          target="_blank"
+          class="project-card-link"
+        >
+          <div class="project-card">
+            <img src="assets/projects/clipboard-saver.png" alt="" />
+            <h2>Clipboard Saver</h2>
+            <h3>A simple clipboard manager built with Python.</h3>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/Turytl/todo-manager"
+          target="_blank"
+          class="project-card-link"
+        >
+          <div class="project-card">
+            <img src="assets/projects/todo-manager.png" alt="" />
+            <h2>To-Do List</h2>
+            <h3>A simple to-do list application built with Python.</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>
+          Email: <a href="mailto:rehanalyze@gmail.com">rehanalyze@gmail.com</a>
+        </p>
+        <p>
+          GitHub: <a href="https://github.com/Turytl" target="_blank">Turytl</a>
+        </p>
+        <p>Discord: javed.dev</p>
+        <p>Phone: <a href="tel:9518787752">9518787752</a></p>
+      </div>
+      <a class="cta-button" href="mailto:Javedalyze@gmail.com">Say Hello</a>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
